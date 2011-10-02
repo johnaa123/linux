@@ -709,6 +709,8 @@ patternProperties:
     description: Raydium Semiconductor Corp.
   "^rda,.*":
     description: Unisoc Communications, Inc.
+  "^rdamicro,.*":
+    description: RDA Microelectronics, Inc.
   "^realtek,.*":
     description: Realtek Semiconductor Corp.
   "^renesas,.*":
