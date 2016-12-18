@@ -31,3 +31,7 @@
 		bias-disable;
 	};
 };
+
+&tcu_timer {
+	timers = <0 1>;
+};
