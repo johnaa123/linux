@@ -35,3 +35,8 @@
 &tcu_timer {
 	timers = <0 1>;
 };
+
+&tcu {
+	assigned-clocks = <&tcu JZ4740_CLK_WDT>;
+	assigned-clock-parents = <&cgu JZ4740_CLK_RTC>;
+};
